@@ -1,25 +1,23 @@
-# -*- coding: utf-8 -*-
-import git
+# Navigate to your project directory (if not already there)
+C:\Users\User\Desktop\vs code.jishan\learn.py
 
-# Local path to your project directory
-project_dir = r"C:\Users\User\Desktop\vs code.jishan\learn.py"
+# Initialize Git repository
+git init
 
-# URL of the specific GitHub repository you want to push to
-repo_url = "https://github.com/M-H-Jishan/2d_Game.py.git"
+# Create a new README file and add initial content
+echo "# 2d_Game.py" >> README.md
 
-# Initialize a git repository object
-repo = git.Repo(project_dir)
+# Stage the README file for commit
+git add README.md
 
-# Add all files to the staging area
-repo.git.add(".")
+# Commit the changes with a commit message
+git commit -m "Initial commit"
 
-# Commit the changes
-repo.git.commit("-m", "Initial commit")
+# Rename the branch to 'main' (if it's not already named)
+git branch -M main
 
-# Set the remote URL for your repository
-origin = repo.create_remote('origin', repo_url)
+# Add the remote repository URL (replace with your actual URL)
+git remote add origin https://github.com/M-H-Jishan/2d_Game.py.git
 
-# Push your changes to GitHub
-origin.push()
-
-print("Project pushed to GitHub successfully.")
+# Push the committed changes to the 'main' branch on GitHub
+git push -u origin main
