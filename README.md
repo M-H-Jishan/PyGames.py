@@ -6,7 +6,7 @@ Welcome to my collection of 2D game development projects using Pygame and Arcade
 
 ### Pygame Platformer
 
-A classic platformer game where the player navigates through levels, avoids obstacles, and collects coins.
+A classic platformer game where the player avoids obstacles, and collects coins.
 
 ### Arcade Space Shooter
 
