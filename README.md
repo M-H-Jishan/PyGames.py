@@ -4,6 +4,10 @@ Welcome to my collection of 2D game development projects using Pygame and Arcade
 
 ## Projects
 
+### Maze Escape 
+
+Navigate through randomly generated mazes in this exciting Pygame escape game! Each level presents a new challenge with increasing difficulty and a ticking timer, testing your skills and speed. Keep track of your score, and strive to see the "Congratulations!" message before the game-over screen appears
+
 ### Pygame Platformer
 
 A classic platformer game where the player avoids obstacles, and collects coins.
